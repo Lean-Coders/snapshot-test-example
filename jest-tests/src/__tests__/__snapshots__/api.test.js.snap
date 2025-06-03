@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mock API Snapshot Tests Category Endpoints GET /api/categories sollte mit Snapshot übereinstimmen 1`] = `
+[
+  "Elektronik",
+  "Bücher",
+  "Kleidung",
+  "Sport",
+  "Haushalt",
+]
+`;
+
+exports[`Mock API Snapshot Tests Customer Endpoints GET /api/customers/1 sollte mit Snapshot übereinstimmen 1`] = `
+{
+  "address": "Musterstraße 123, 12345 Berlin",
+  "email": "max@example.com",
+  "id": 1,
+  "name": "Max Mustermann",
+}
+`;
+
+exports[`Mock API Snapshot Tests Customer Orders Endpoints GET /api/customers/1/orders sollte mit Snapshot übereinstimmen 1`] = `
+[
+  "id",
+  "customerId",
+  "orderDate",
+  "totalAmount",
+  "status",
+]
+`;
+
+exports[`Mock API Snapshot Tests Customer Orders Endpoints GET /api/customers/1/orders sollte mit Snapshot übereinstimmen 2`] = `
+[
+  "id",
+  "customerId",
+  "orderDate",
+  "totalAmount",
+  "status",
+]
+`;
+
+exports[`Mock API Snapshot Tests Customer Orders Endpoints GET /api/customers/1/orders sollte mit Snapshot übereinstimmen 3`] = `
+[
+  "id",
+  "customerId",
+  "orderDate",
+  "totalAmount",
+  "status",
+]
+`;
+
+exports[`Mock API Snapshot Tests Order Endpoints GET /api/orders/1 sollte mit Snapshot übereinstimmen 1`] = `
+{
+  "customerId": 1,
+  "id": 1,
+  "orderDate": "2023-01-01T12:00:00",
+  "status": "DELIVERED",
+  "totalAmount": 99.99,
+}
+`;
+
+exports[`Mock API Snapshot Tests Order Endpoints GET /api/orders/1 sollte mit Snapshot übereinstimmen 2`] = `
+{
+  "customerId": 1,
+  "id": 1,
+  "orderDate": Any<String>,
+  "status": "DELIVERED",
+  "totalAmount": 99.99,
+}
+`;
+
+exports[`Mock API Snapshot Tests Product Endpoints GET /api/products/1 sollte mit Snapshot übereinstimmen 1`] = `
+{
+  "category": "Elektronik",
+  "id": 1,
+  "name": "Test Produkt",
+  "price": 149.99,
+}
+`;
+
+exports[`Mock API Snapshot Tests Statistics Endpoints GET /api/statistics sollte mit Snapshot übereinstimmen 1`] = `
+{
+  "totalCustomers": 1000,
+  "totalOrders": 5000,
+  "totalRevenue": 250000,
+}
+`;

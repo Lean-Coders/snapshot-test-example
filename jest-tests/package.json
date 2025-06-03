@@ -1,0 +1,14 @@
+{
+  "name": "mockapi-jest-tests",
+  "version": "1.0.0",
+  "description": "Jest Snapshot Tests für die Mock-API",
+  "scripts": {
+    "test": "jest",
+    "test:update": "jest -u"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-snapshot-serializer-raw": "^2.0.0",
+    "supertest": "^6.3.4"
+  }
+}
