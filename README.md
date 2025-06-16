@@ -1,23 +1,22 @@
-# Mock API mit Jest Snapshot Tests
+# Mock API with Jest Snapshot Tests
 
-Dieses Projekt enthält eine Mock API, die in Java mit Spring Boot implementiert ist, sowie Jest Snapshot Tests für die API-Endpunkte.
+This project contains a mock API implemented in Java with Spring Boot, as well as Jest snapshot tests for the API endpoints.
 
-## Projektstruktur
+## Project Structure
 
 - `src/main/java/com/example/mockapi/` - Java Spring Boot API
 - `jest-tests/` - Jest Snapshot Tests
 
 ## Installation
 
-1. Stellen Sie sicher, dass Java, Maven und Node installiert sind
-2. Führen Sie im Root-Verzeichnis aus: `mvn clean install`
-3. Installieren Sie die Abhängigkeiten für Jest: `cd jest-tests && npm install`
+1. Make sure Java, Maven, and Node are installed
+2. In the root directory, run: `mvn clean install`
+3. Install the dependencies for Jest: `cd jest-tests && npm install`
 
-## API starten
+## Start the API
 
-1. Führen Sie im Root-Verzeichnis aus: `mvn spring-boot:run`
+1. In the root directory, run: `mvn spring-boot:run`
 
-## JEST-Tests starten
+## Run JEST Tests
 
-1. Führen Sie in `jest-tests/` aus: `npm test`
-
+1. In `jest-tests/`, run: `npm test`
